@@ -1,10 +1,10 @@
 require "language/node"
 
 class KeysCli < Formula
-  desc "Command-line client for the keys environment manager"
-  homepage "https://keys.cm"
-  url "https://registry.npmjs.org/keys-cli/-/keys-cli-2.2.4.tgz"
-  sha256 "2679ce9d45636be1b6c321effac4060f02d8ebd92c63cbe6391e3016e00d90fc"
+  desc "Fetch and load encrypted environment variables at runtime; Manage runtime environments."
+  homepage "https://www.keys.cm"
+  url "https://registry.npmjs.org/keys-cli/-/keys-cli-2.5.0.tgz"
+  sha256 "2816ddb3d5db64b81f206bbf4f44004961452da1ec2db70f8c354cbea1e56205"
 
   depends_on "node"
 
